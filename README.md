@@ -2,6 +2,7 @@
 
 ## How to execute it
 
+With `iex -S mix`:
 ```
 iex(1)> Stone.challenge([{1, 100}, {2, 100}], ["email1@gmail.com", "email2@gmail.com"])
 {:ok, %{"email1@gmail.com" => 150, "email2@gmail.com" => 150}}
